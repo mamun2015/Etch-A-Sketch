@@ -10,15 +10,16 @@
 
 	<body>
 	<div id="grid16"></div>
-	<script> $(document).ready(function() {
-       for(i=0; i<16; i++) {
-           $('#grid16').append('<div class="line">');
-               for(j=0; j<16; j++) {
-                   $('#grid16').append('<div class="square">'+j+'</div>');
-               }
-           $('#grid16').append('</div>');
-       }
-});
+	<script> 
+	var $grid = $('#grid16');
+	for (i = 0; i < 16; i++) 
+{
+    var row = '<div>';
+    for (j = 0; j < 16; j++)
+    row += '<div class="square">' + j + '</div>';
+    row += '</div>';
+    $grid.append(row);
+}
 </script>
 	</body>
 	</html>

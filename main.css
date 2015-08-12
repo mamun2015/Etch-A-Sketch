@@ -1,10 +1,9 @@
-.square {
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: green;
-    display: inline-block;
-
-}
+ display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 2.5 rem;
+    width: 2.5 rem;
+    background-color: white;
 
 
 .line {
