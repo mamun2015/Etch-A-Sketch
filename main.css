@@ -1,0 +1,16 @@
+.square {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    display: inline-block;
+
+}
+
+
+.line {
+    text-align: center;
+    vertical-align: middle;
+    width: 800px;
+    display: block;
+    clear: both;
+}

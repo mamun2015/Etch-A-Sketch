@@ -4,7 +4,18 @@
 		<meta charset="utf-8">
 		<title>Etch-A-Sketch-theOdinProject</title>
 		<meta name="description" content="Etch-A-Sketch-the_Odin_Project">
-			
+		<script> var $newLine;
+		$('#b1').click(function() {
+			for (i=0; i<16; i++) {
+				$newLine= $('<div class="line"></div>');
+				$('#pixelgrid').append($newLine);
+
+				for (j=0; j<16; j++) {
+					$newLine.append('<div class="square">'+j+'</div>');
+				}
+			}
+		});
+</script>
 	</head>
 
 	<body>
