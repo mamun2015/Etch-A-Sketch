@@ -1,20 +1,19 @@
- display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    height: 2.5 rem;
-    width: 2.5 rem;
-    background-color: white;
-
-
-.line {
-    text-align: center;
-    vertical-align: middle;
-    width: 800px;
-    display: block;
-    clear: both;
-}
-
-
 body {
     background:#000;
+}
+
+div {
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	margin: 1px 1px;
+	float: left;
+	opacity: 1;
+}
+
+#grid16 {
+	height: 600px;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto;
 }
