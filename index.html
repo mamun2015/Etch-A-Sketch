@@ -12,8 +12,7 @@
 	<div id="grid16"></div>
 	<script> 
 	$(document).ready(function() {
-	function draw(rows, columns)
-{
+	draw(rows, columns){
 	var width =  (800 - columns * 2) / columns + 'px';
 	var height = (600 - rows * 2) / rows + 'px';
 	for (var i = 0; i < rows; i++) {
@@ -25,6 +24,7 @@
 	$('div').css('height', height);
 	$('div').css('width', width);
 }
+});
 </script>
 	</body>
 	</html>
